@@ -14,7 +14,7 @@ import Products from '../Pages/Products';
 import CreateProduct from './CreateProduct';
 import UpdateProduct from './UpdateProduct';
 import Cookies from 'universal-cookie';
-
+import { HashRouter as Route } from 'react-router-dom';
 export default function AuthLayout() {
         let cookie = new Cookies();
 
