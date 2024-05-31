@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AhmedHassan222.github.io/Dashboard/static/css/main.d23652d9.css",
-    "main.js": "/AhmedHassan222.github.io/Dashboard/static/js/main.e1992c67.js",
+    "main.js": "/AhmedHassan222.github.io/Dashboard/static/js/main.fad3a76f.js",
     "static/js/453.3f5bda53.chunk.js": "/AhmedHassan222.github.io/Dashboard/static/js/453.3f5bda53.chunk.js",
     "static/media/fa-solid-900.ttf": "/AhmedHassan222.github.io/Dashboard/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/AhmedHassan222.github.io/Dashboard/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/AhmedHassan222.github.io/Dashboard/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/AhmedHassan222.github.io/Dashboard/index.html",
     "main.d23652d9.css.map": "/AhmedHassan222.github.io/Dashboard/static/css/main.d23652d9.css.map",
-    "main.e1992c67.js.map": "/AhmedHassan222.github.io/Dashboard/static/js/main.e1992c67.js.map",
+    "main.fad3a76f.js.map": "/AhmedHassan222.github.io/Dashboard/static/js/main.fad3a76f.js.map",
     "453.3f5bda53.chunk.js.map": "/AhmedHassan222.github.io/Dashboard/static/js/453.3f5bda53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d23652d9.css",
-    "static/js/main.e1992c67.js"
+    "static/js/main.fad3a76f.js"
   ]
 }
