@@ -5,34 +5,29 @@ import { User } from "../Contexts/User";
 
 export default function Users() {
     const [users, setUsers] = useState([]);
-    const [runUseEffect, setRunUseEffect] = useState(0)
     let { auth } = useContext(User)
     let token = auth.token;
     useEffect(() => {
         axios.get(`http://127.0.0.1:8000/api/user/show`, {
             headers: {
-                Accept: "application/json",
                 Authorization: `Bearer ${token}`
             }
         })
             .then(data => {
                 setUsers(data.data)
             });
-    }, [runUseEffect])
+    }, [])
 
     async function deleteUser(id) {
         try {
-            const res = await axios.delete(`http://127.0.0.1:8000/api/user/delete/${id}`, {
+            await axios.delete(`http://127.0.0.1:8000/api/user/delete/${id}`, {
                 headers: {
                     Accept: "application/json",
                     Authorization: `Bearer ${token}`
                 }
             });
-            if (res.status === 200) {
-                setRunUseEffect(prev => prev + 1)
-            }
+
         } catch (error) {
-            console.log(error)
         }
     }
 

@@ -5,16 +5,16 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import "./Styles/Dashboard.css"
 import UserProvide from './Contexts/User';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <UserProvide>
     <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>
   </UserProvide>
 );
